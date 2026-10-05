@@ -57,7 +57,7 @@
 #
 # TO RUN THE SCRIPT AUTOMATICALLY AT REGULAR INTERVALS
 #
-# open task scheduler.
+# log in as an admin and open task scheduler.
 # click create task on the right.
 # in the actions tab, click new and select start a program
 # type powershell.exe in the program field.
