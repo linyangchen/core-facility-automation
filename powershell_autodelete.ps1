@@ -28,6 +28,9 @@
 #
 # BEFORE RUNNING THE SCRIPT
 #
+# The latest version of the script can be downloaded from
+# https://github.com/linyangchen/core-facility-automation
+#
 # Copy this script onto the computer where you want to use it.
 #
 # To enable powershell script execution on the computer,
