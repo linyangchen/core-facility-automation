@@ -6,7 +6,7 @@
 # PowerShell script written by ChatGPT with instructions from Lin Yangchen
 # Refined by Lin Yangchen
 # Light Microscopy Core, Centre for Bioimaging Sciences, National University of Singapore
-# 11 September 2026, last updated 2 October 2026
+# 11 September 2026, last updated 8 October 2026
 # =============================================================================================
 #
 #
@@ -26,12 +26,13 @@
 #
 #
 #
-# BEFORE RUNNING THE SCRIPT
+# BEFORE RUNNING THIS SCRIPT
 #
 # The latest version of the script can be downloaded from
-# https://github.com/linyangchen/core-facility-automation
+# https://github.com/linyangchen/core-facility-automation/blob/main/powershell_autodelete.ps1
 #
-# Copy this script onto the computer where you want to use it.
+# Copy the script onto the computer where you want to use it,
+# into any folder of your choice.
 #
 # To enable powershell script execution on the computer,
 # type powershell in the Windows search bar and click Run as Administrator.
@@ -52,7 +53,8 @@
 # open a powershell window.
 # change directory to where the script is
 # and type .\ followed by the filename of the script with no space.
-#
+# if it returns error saying script is digitally unsigned,
+# right click on the script file icon, select Properties and tick Unblock.
 #
 #
 # TO RUN THE SCRIPT AUTOMATICALLY AT REGULAR INTERVALS
@@ -75,7 +77,7 @@
 
 # Specify full path to directory in which to check and delete files.
 # to get full path, navigate to the folder in File Explorer,
-# right click on the folder name in address bar and copy as text.
+# right click on the folder name in address bar and copy.
 
 $FolderPath = 
 
